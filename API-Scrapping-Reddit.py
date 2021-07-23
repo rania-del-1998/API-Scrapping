@@ -13,7 +13,7 @@ import requests.auth
 
 
 client_auth = requests.auth.HTTPBasicAuth('92FCO5BodoDM6Q','37dv3TSC4axJAJnvNaz2af48csW6Hw')
-post_data = {"grant_type" : "password", "username": "Solid_Perspective_59", "password": "rania8991"}
+post_data = {"grant_type" : "password", "username": "Solid_Perspective_59", "password": "*****"}
 headers = {'User-agent': 'Formation'}
 response = requests.post("https://www.reddit.com/api/v1/access_token", auth = client_auth, data = post_data, headers = headers)
 response.json()
